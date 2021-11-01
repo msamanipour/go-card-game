@@ -14,7 +14,7 @@ func main() {
 	// cards.saveToFile("my_cards")
 
 	//Get from file
-	cards := newDeckFromFile("my_cards")
+	cards := newDeckFromFile("my_cards2")
 	cards.print()
 
 }
