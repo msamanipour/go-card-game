@@ -1,14 +1,16 @@
 package main
 
-import "fmt"
-
 func main() {
+	// Create New Deck
 	cards := newDeck()
+
+	//Deal Cards & print them
 	// hand, ramaningCards := deal(cards, 5)
 
 	// hand.print()
 	// ramaningCards.print()
 
-	fmt.Println([]byte(cards.toString()))
+	//Save to file
+	cards.saveToFile("my_cards")
 
 }
